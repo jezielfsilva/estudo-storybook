@@ -1,10 +1,12 @@
 import React from 'react';
 import './App.css';
-import ButtonS from './components/Button/Button';
+import Button from './components/Button/Button';
+import Input from './components/Inputs/Input';
+import Backl from './components/background screen/Scr';
 
 function App() {
   return (
-    <ButtonS>clickar aqui</ButtonS>
+    <Backl></Backl>
   );
 }
 

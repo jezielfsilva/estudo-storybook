@@ -2,18 +2,20 @@ import React from 'react';
 import styled from 'styled-components';
 
 const ButtonS = styled.button`
-    width: 10vw;
-    height: 6vh;
-    border-radius: 1em;
+    width: 18vw;
+    height: 5vh;
+    border-radius: 0.2em;
     font-size: 0.9em;
     color: #FEA000;
     background: #CCC678;
+    border-style: none;
+    font-size: 1.2em;
 `;
 
  const Button = (props) => {
    return (
-       <ButtonS>Clickar aqui</ButtonS>
+       <ButtonS>clickar aqui</ButtonS>
    )
 }
 
-export default ButtonS;
+export default Button;
