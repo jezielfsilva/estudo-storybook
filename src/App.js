@@ -1,8 +1,6 @@
 import React from 'react';
 import './App.css';
-import Button from './components/Button/Button';
-import Input from './components/Inputs/Input';
-import Backl from './components/background screen/Scr';
+import Backl from './components/Screen/Scr';
 
 function App() {
   return (

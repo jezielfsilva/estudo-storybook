@@ -10,9 +10,24 @@ const InputFrm = styled.input`
     font-size: 1.2em;
 `;
 
+const Label = styled.label`
+    display: flex;
+    flex-direction: column;
+
+    p{
+        color: #423FC2;
+        font-size: 1.2em;
+    }
+`;
+
 const Input = (props) => {
     return (
-        <InputFrm/>
+        <>
+            <Label>
+                <p>{props.labelText}</p>
+                <InputFrm placeholder={props.placeholder} type={props.type}/>
+            </Label>
+        </>
     );
 }
 
