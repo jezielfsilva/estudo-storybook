@@ -3,7 +3,7 @@ import styled from 'styled-components';
 import Button from '../Button/Button';
 import Input from '../Inputs/Input';
 
-const Ground = styled.div`
+const Back = styled.div`
     display: flex;
     align-items: center;
     justify-content: center;
@@ -20,7 +20,7 @@ const Title = styled.h1`
     width: 40vw;
 `;
 
-const Forml = styled.div`
+const Form = styled.div`
     width: 40vw;
     height: 46vh;
     background: #FFFFFF;
@@ -37,19 +37,18 @@ const Text = styled.p`
     font-family: arial;
 `;
 
-const Backl = (props) => {
+const Scre = (props) => {
     return (
-        <Ground>
-            <Title>Estudo de storybook</Title>
-            <Forml>
-                <Text>Se inscreva aqui</Text>
-                <Input labelText="Nome" type="text" placeholder="Nome"/>
+        <Back>
+            <Title>Estudo sobre Storybook</Title>
+            <Form>
+                <Text>Entre na sua conta</Text>
                 <Input labelText="Email" type="email" placeholder="nome@mail.com"/>
                 <Input labelText="Senha" type="password" placeholder="Inserir Senha"/>
-                <Button width="8rem" height="2rem" background="#396FFF" color="#FFFFFF">Criar Conta</Button>
-            </Forml>
-        </Ground>
+                <Button width="8rem" height="2rem" background="#DC2F28" color="#FFFFFF">Entrar</Button>
+            </Form>
+        </Back>
     );
 }
 
-export default Backl;
+export default Scre;

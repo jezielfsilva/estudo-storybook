@@ -1,10 +1,10 @@
 import React from 'react';
 import './App.css';
-import Backl from './components/Screen/Scr';
+import Scre from './components/Screen/ScrEntr';
 
 function App() {
   return (
-    <Backl></Backl>
+    <Scre></Scre>
   );
 }
 

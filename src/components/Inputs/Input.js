@@ -6,7 +6,7 @@ const InputFrm = styled.input`
     height: 4.8vh;
     border-radius: 0.3em;
     border: 0.07em solid #090000;
-    background: #FFFFAF;
+    background: #FFFFFF;
     font-size: 1.2em;
 `;
 
