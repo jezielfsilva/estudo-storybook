@@ -43,10 +43,10 @@ const Backl = (props) => {
             <Title>Estudo de storybook</Title>
             <Forml>
                 <Text>Se inscreva aqui</Text>
-                <Input labelText="Nome" placeholder="Nome"/>
-                <Input labelText="Email" placeholder="nome@mail.com"/>
-                <Input labelText="Senha" placeholder="Inserir Senha"/>
-                <Button width="4rem" height="2rem" background="#396FFF" color="#FFFFFF">Criar Conta</Button>
+                <Input labelText="Nome" type="text" placeholder="Nome"/>
+                <Input labelText="Email" type="email" placeholder="nome@mail.com"/>
+                <Input labelText="Senha" type="password" placeholder="Inserir Senha"/>
+                <Button width="8rem" height="2rem" background="#396FFF" color="#FFFFFF">Criar Conta</Button>
             </Forml>
         </Ground>
     );
